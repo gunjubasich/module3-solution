@@ -1,0 +1,76 @@
+body {
+	font-family: 'Roboto' sans-serif;
+	color: black;
+}
+.header-nav {
+	background-color: #b7c;
+}
+.navbar-collapse{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.navbar-brand h1 {
+	 margin: 0;
+	 padding: 0;
+	 color: black;
+	 text-shadow: 2px 2px 2px #222;
+	 line-height: .75;
+}
+#collapsable-nav{
+	padding-top: 5px;
+	background-color: white;
+	border: 2px solid black;
+}
+ #collapsable-nav hr{
+	border: 1px solid black;
+}
+.h2text {
+	padding-top: 50px;
+}
+.main-content {
+	background-color: gray;
+}
+.main-content a {
+	text-decoration: none;
+	color: blue;
+}
+.container-1 {
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+#collapsable-nav{
+	background-color: #b7c;
+	border: none;
+}
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+#collapsable-nav{
+	background-color: #b7c;
+	border: none;
+}
+}
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+#collapsable-nav{
+	background-color: #b7c;
+	border: none;
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  #collapsable-nav li {
+    font-size: 1.2em;
+  }
+  #collapsable-nav li p {
+    font-size: 1em;
+    margin-right: 5px;
+  }
+}
