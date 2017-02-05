@@ -25,6 +25,10 @@ body {
  #collapsable-nav hr{
 	border: 1px solid black;
 }
+#nav-list p > a {
+	text-decoration: none;
+	color: black;
+}
 .h2text {
 	padding-top: 50px;
 }
